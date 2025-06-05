@@ -1,0 +1,17 @@
+# node dependencies
+**/node_modules/
+**/dist/
+**/build/
+
+# environment files
+
+**/.env
+**/env.local
+**/env.production
+
+
+
+### macOS ###
+# General
+.DS_Store
+Thumbs.db

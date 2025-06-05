@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+/* Tailwind directives require PostCSS with Tailwind plugin enabled.
+   If you see "Unknown at rule @tailwind", ensure your build uses PostCSS and Tailwind.
+   Alternatively, remove these lines if not using Tailwind. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary-color: #3b82f6;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

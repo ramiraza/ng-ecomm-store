@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"],
+      "@app-types": ["./types"], // Direct to types folder
+      "@app-types/*": ["./types/*"],
+      "@routes": ["./routes"], // Direct to routes folder
+      "@routes/*": ["./routes/*"],
+      "@handlers": ["./handlers"], // Direct to handlers folder
+      "@handlers/*": ["./handlers/*"],
+      "@models": ["./models"], // Direct to models folder
+      "@models/*": ["./models/*"],
+      "@config": ["./config"], // Direct to config folder
+      "@config/*": ["./config/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
