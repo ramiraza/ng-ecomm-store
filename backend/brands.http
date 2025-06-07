@@ -1,0 +1,6 @@
+### get brand requests
+GET http://localhost:3000/api/brands
+Content-Type: application/json
+
+### single brand
+GET http://localhost:3000/api/brands/684287093782793873c77e80

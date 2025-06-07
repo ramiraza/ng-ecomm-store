@@ -1,0 +1,6 @@
+### retrieve all categories
+GET http://localhost:3000/api/category
+
+
+### get single category by id
+GET http://localhost:3000/api/category/683b5052f0315d4b748d22d5

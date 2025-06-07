@@ -24,15 +24,13 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"],
-      "@app-types": ["./types"], // Direct to types folder
-      "@app-types/*": ["./types/*"],
       "@routes": ["./routes"], // Direct to routes folder
       "@routes/*": ["./routes/*"],
-      "@handlers": ["./handlers"], // Direct to handlers folder
-      "@handlers/*": ["./handlers/*"],
+      "@controllers": ["./controllers"], // Direct to the controllers folder
+      "@controllers/*": ["./controllers/*"],
       "@models": ["./models"], // Direct to models folder
       "@models/*": ["./models/*"],
-      "@config": ["./config"], // Direct to config folder
+      "@config": ["./config"], // Direct to the config folder
       "@config/*": ["./config/*"]
     }
   },

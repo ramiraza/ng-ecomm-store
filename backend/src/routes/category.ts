@@ -1,13 +1,6 @@
 import express, { Request, Response } from 'express';
-
-import {
-  addCategory,
-  updateCategory,
-  getCategories,
-  deleteCategory,
-  getCategoryById,
-} from '@handlers/categoryHandler';
-import { CategoryData, CategoryDoc } from '@models/index';
+import {getCategories, addCategory, getCategoryById, updateCategory, deleteCategory} from '@controllers'
+import { CategoryDoc } from '@models';
 
 const router = express.Router();
 

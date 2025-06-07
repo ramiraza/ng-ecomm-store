@@ -1,10 +1,9 @@
-import {Types} from 'mongoose';
-import {CategoryData, CategoryDoc, Category} from '@models';
+import { Types } from 'mongoose';
+import { Category, CategoryData, CategoryDoc } from '@models';
 
 export const getCategories = async (): Promise<CategoryDoc[] | void> => {
   try {
-    let categories: CategoryDoc[] = await Category.find();
-    return categories;
+    return await Category.find();
   } catch (error) {
     console.log(error);
   }
